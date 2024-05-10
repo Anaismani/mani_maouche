@@ -1,6 +1,6 @@
 .page3 {
     font-family: Arial, sans-serif;
-    background-image: url('image13.jpg'); /* Image de fond */
+    background-image: url('../images/image13.jpg'); /* Image de fond */
     background-size: cover;
 
 }

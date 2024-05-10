@@ -1,6 +1,6 @@
 .page1 {
     font-family: Arial, sans-serif;
-    background-image: url('image10.jpg'); /* Image de fond */
+    background-image: url('../images/image10.jpg'); /* Image de fond */
     background-size: cover;
     background-position: center;
     
@@ -91,7 +91,7 @@ a { /* les 2 liens de p1*/
 
 .page2 {
     font-family: Arial, sans-serif;
-    background-image: url('image7.jpg');
+    background-image: url('../images/image7.jpg');
     background-size: cover;
     background-position: center;
     height: 100%;
