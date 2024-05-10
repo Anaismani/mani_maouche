@@ -1,0 +1,205 @@
+.page1 {
+    font-family: Arial, sans-serif;
+    background-image: url('image10.jpg'); /* Image de fond */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.menu-contact-button{  /* position des deux liens dans p1*/
+    position: absolute;
+    top: 80px;
+    left: 40px; 
+}
+
+
+a { /* les 2 liens de p1*/
+    background-color: transparent;
+    color: rgb(12, 10, 10);
+    padding: 5px 10px;
+    margin-top: 40px;
+    font-size: 20px; 
+}
+ 
+
+.content {
+    margin: 80px auto;
+}
+
+.container {    /*page1 et 2 et 3*/
+    
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0px;
+    background-color:transparent;
+}
+
+.Res{   /*centrer le h1 de la page1*/
+    font-size: 100px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.R{
+    color: red;
+
+}
+.V{
+    color: green;
+
+}
+.B{
+    color: white;
+}
+
+.grid-container {    /*page1*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+    margin-top: 0px;
+}
+
+.grid-item {    /* les 3 colonnes de  page1*/ 
+    padding: 20px;   
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+    background-color: rgba(194, 96, 96, 0.76); /* Rouge avec une transparence */
+    opacity: 0.8; /* Transparence supplémentaire de 80% */
+}
+
+.vert{    /*a propos  p1*/
+    color: green;
+    text-align: center;
+}
+
+
+.blanc{  /*specialites P1 */
+    color: white;
+    text-align: center;
+}
+
+
+.rouge{    /*evenement p1*/
+    color: red;
+    text-align: center;
+}
+
+
+
+
+
+.page2 {
+    font-family: Arial, sans-serif;
+    background-image: url('image7.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+
+.slider {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden; 
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+    background-size: cover;
+    background-position: center;
+}
+
+.active {
+    opacity: 1;
+}
+
+
+header {
+    color: white;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.menu{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+    background-color: rgba(182, 114, 114, 0.76); /* Rouge avec une transparence de 50% */
+    opacity: 0.8; /* Transparence supplémentaire de 80% */
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #666;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: transparent;
+}
+
+.boutton {
+    padding: 8px 16px;
+    background-color: #1cb33d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boutton:hover {
+    background-color: #352020;
+}
+
+footer {  /* footer p1 et p2 */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: static;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
