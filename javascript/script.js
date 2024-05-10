@@ -9,3 +9,15 @@ function nextSlide() {
 }
 
 setInterval(nextSlide, 3000); // Change d'image toutes les 3 secondes
+
+let title = document.getElementsByClassName("Res");
+
+if (window.location.href.indexOf("index.html") === -1) {
+    title[0].addEventListener("click", () => {
+        window.location.href = "../index.html";
+    })
+}else {
+    title[0].addEventListener("click", () => {
+        window.location.reload();
+    })
+}

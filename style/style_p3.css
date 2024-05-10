@@ -1,8 +1,11 @@
+body{
+    margin: 0px;
+   
+}
 .page3 {
     font-family: Arial, sans-serif;
     background-image: url('../images/image13.jpg'); /* Image de fond */
     background-size: cover;
-
 }
 
 
@@ -15,6 +18,16 @@
 
 }
 
+
+.Res{   /*centrer le h1 de la page1*/
+    font-size: 75px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0px;
+}
+.Res:hover{
+    cursor: pointer;
+}
 
 .container {
     max-width: 600px;
@@ -42,6 +55,11 @@ h1 {
 .V{
     color: green;
 }
+
+.B{
+    color:#f4f4f4;
+}
+
 
 
 form {
@@ -88,21 +106,23 @@ input[type="submit"]:hover {
 
 
 .map-container {
+    
+    display: flex;
+    justify-content: center;
     position: relative;
     overflow: hidden;
-    height: 200px;
     border-radius: 10px;
-    max-width: 300px;
-    margin: right ;
     padding: 10px;
     background-color: rgba(194, 96, 96, 0.76); /* Rouge avec une transparence */
     opacity: 0.8; /* Transparence supplémentaire de 80% */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    
 }
 
 
 .map {
-    width: 100%;
+    width: 90%;
     height: 100%;
 }
 
@@ -124,6 +144,7 @@ input[type="submit"]:hover {
 
 a{
     color: #f4f4f4;
+   
 }
 
 
@@ -135,5 +156,9 @@ footer {
     position: static;
     bottom: 0;
     width: 100%;
+    margin-bottom: 0px;
+    & p{ margin-bottom: 0px;}}
 
+.socials{
+    width: 64px;
 }
